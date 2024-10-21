@@ -39,7 +39,7 @@ Once the sandbox is set up, you can start receiving and sending messages to the 
 ## Installation
 Clone the repository:
 ```bash
-git clone https://github.com/adarshb3/Virtual-Try-On-Application-using-Flask-Twilio-and-Gradio.git
+git clone https://github.com/sachnaror/Virtual-Try-On-Application-using-Flask-Twilio-and-Gradio.git
 cd Virtual-Try-On-Application-using-Flask-Twilio-and-Gradio
 ```
 Install the required Python packages:
