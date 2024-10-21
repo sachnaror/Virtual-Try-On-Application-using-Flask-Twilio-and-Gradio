@@ -1,4 +1,4 @@
-![4179993](https://github.com/user-attachments/assets/9057edbb-6d9f-4aba-8bce-1ff120f7b970)
+
 # Virtual Try-On Prototype with Flask, Twilio, and Hugging Face's Gradio API !
 
 This repository contains the code for a virtual try-on application built using Flask, Twilio's WhatsApp API, and Gradio's app with IDM-VTON try-on model. Users can send images via WhatsApp to Twilio to try on garments virtually, and the results are sent back to them.
@@ -90,8 +90,8 @@ Use WhatsApp to send a message or an image to the Twilio Sandbox number, and the
 1. Send a photo of yourself via WhatsApp to the Twilio Sandbox number.
 2. You'll receive a prompt asking you to send a photo of the garment.
 3. After sending the garment photo, the system will process the images and send you the result with the garment virtually applied to your photo.
-   
-![WhatsApp Image 2024-10-19 at 2 32 06 PM](https://github.com/user-attachments/assets/2ecb7ccb-5637-4785-8a30-55170ae8bcb8)
+
+![WhatsApp Image 2024-10-22 at 8 12 07 PM](https://github.com/user-attachments/assets/2ecb7ccb-5637-4785-8a30-55170ae8bcb8)
 
 
 ## Future Enhancements
@@ -101,7 +101,7 @@ Use WhatsApp to send a message or an image to the Twilio Sandbox number, and the
 
 ## License
 This project is licensed under the MIT License.
-   
+
 
 
 
