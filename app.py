@@ -141,7 +141,7 @@ def send_to_gradio(person_image_url, garment_image_url):
 # Helper function to send media message via Twilio
 def send_media_message(to_number, media_url):
     message = client.messages.create(
-        from_='whatsapp:+14155238886',  # Twilio sandbox number
+        from_='whatsapp:+114751858169',  # Twilio sandbox number
         body="Here is your virtual try-on result:",
         media_url=[media_url],  # Public URL of the media
         to=to_number
@@ -170,7 +170,7 @@ def download_image(media_url, filename):
 
         # Download the image with proper authorization (using Basic Auth)
         response = requests.get(image_url, auth=(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN))
-        
+
         if response.status_code == 200:
             # Save the image locally
             with open(filename, 'wb') as f:
